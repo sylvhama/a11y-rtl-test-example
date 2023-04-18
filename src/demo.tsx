@@ -14,7 +14,7 @@ export default function BasicMenu() {
   };
 
   return (
-    <div>
+    <div style={{display:'grid', height:'100vh', width:'100vw', placeItems:'center'}}>
       <Button
         variant="contained"
         id="basic-button"
